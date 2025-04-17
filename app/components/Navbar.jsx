@@ -25,7 +25,7 @@ export default function Navbar() {
             <Link href='#about'>About</Link>
           </li>
           <li className='hover:text-[goldenrod] transition-all duration-300 hover:scale-105'>
-            <Link href='#doctors'>Services</Link>
+            <Link href='#services'>Services</Link>
           </li>
           <li className='hover:text-[goldenrod] transition-all duration-300 hover:scale-105'>
             <Link href='#contact'>Contact</Link>
@@ -47,16 +47,16 @@ export default function Navbar() {
       <div className={`md:hidden absolute top-20 right-4 bg-[#ffffff1f] p-4 rounded-lg border border-white/20 backdrop-blur-md shadow-md transition-all duration-500 ease-in-out ${isOpen ? 'opacity-100 scale-100' : 'opacity-0 scale-95 pointer-events-none'}`}>
         <ul className='flex flex-col gap-4 text-white'>
           <li className='hover:text-[goldenrod] transition-all duration-300 hover:scale-105'>
-            <Link href='#detection'>Detect</Link>
+            <Link href='#about'>About</Link>
           </li>
           <li className='hover:text-[goldenrod] transition-all duration-300 hover:scale-105'>
-            <Link href='#doctors'>Doctors</Link>
+            <Link href='#services'>Services</Link>
           </li>
           <li className='hover:text-[goldenrod] transition-all duration-300 hover:scale-105'>
-            <Link href='#donate'>Donate</Link>
+            <Link href='#contact'>Contact</Link>
           </li>
           <li className='hover:text-[goldenrod] transition-all duration-300 hover:scale-105'>
-            <Link href='/documentation'>Documentation</Link>
+            <Link href='#gallery'>Gallery</Link>
           </li>
         </ul>
       </div>
